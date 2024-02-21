@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Roboto-Thintalic;
+    src: url(../fonts/Roboto-ThinItalic.ttf);
+}
+
+body*   {
+    margin: 0;
+    border: 0;
+    padding: 0;   
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+.titulo-con-imagen {
+    display: flex; 
+    align-items: center
+}
+
+.titulo-con-imagen img {
+    margin-right: 50px; 
+    max-width: 100px;
+    height: auto;
+}
+
+body {
+    margin: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif    ;
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Roboto-Thintalic;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    
+
+    h1  { 
+        text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+        text-align: justify;
+    }
+
+}
